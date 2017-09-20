@@ -1,0 +1,39 @@
+li {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.components-listitem {
+	position: relative;
+	height: 36px;
+	line-height: 36px;
+	margin-left: -40px;
+	border-bottom: 1px solid #ddd;
+	text-indent: 10px;
+	cursor: pointer;
+	font-size: 15px;
+}
+.components-listitem p {
+	padding: 0;
+	margin: 0;
+}
+.delete {
+	position: absolute;
+	cursor: pointer;
+	color: pink;
+	top: 0;
+	right: 30px;
+	height: 30px;
+	width: 30px;
+	font-size: 25px;
+}
+.delete:hover {
+	color: #f00;
+}
+
+.components-listitem.focus {
+	color: #2f9842;
+}
+li.components-listitem:hover {
+	background: #eee;
+}
